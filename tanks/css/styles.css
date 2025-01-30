@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(39, 36, 36);
+    color: white;
+    font-size: 30px;
+}
+
+span{
+    color: green;
+}
+
+main{
+    width: 50%;
+    text-align: center;
+}
+
+.box_table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+table{
+    text-align: center;
+    border-collapse: collapse;
+}
+
+table, td, tr{
+    border: 2px solid white;
+}
